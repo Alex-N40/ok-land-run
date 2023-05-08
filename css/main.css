@@ -211,6 +211,26 @@ footer {
   margin: 0;
 }
 
+/*----- Site Name Styles -----*/
+.site-name .wrapper {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-name h2 {
+  width: 100%;
+  background-color: #c5c5c4;
+  color: #d76703;
+  font-size: 1.2em;
+  padding: 5px 0;
+  text-shadow: -0.2px 0 #342219, 0 0.2px #342219, 0.2px 0 #342219, 0 -0.2px #342219;
+  letter-spacing: 2.5px;
+}
+
 /*----- Header Styles -----*/
 header .wrapper {
   display: flex;
@@ -535,6 +555,12 @@ footer .wrapper {
     font-size: 1.2em;
   }
 
+  /*----- Site Name Styles -----*/
+  .site-name h2 {
+    font-size: 1.5em;
+    padding-left: 30px;
+  }
+
   /*----- Header Styles -----*/
   header .wrapper {
     flex-flow: row nowrap;
@@ -603,6 +629,11 @@ footer .wrapper {
   /*----- General Styles -----*/ 
   .wrapper {
     width: 70%;
+  }
+
+  /*----- Site Name Styles -----*/
+  .site-name h2 {
+    font-size: 1.7em;
   }
 
   /*----- Header Styles -----*/
